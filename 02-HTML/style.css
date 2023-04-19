@@ -96,3 +96,16 @@ a:active {
   background-color: black;
   font-style: italic;
 }
+/* resolving selectors conflicts */
+#copyright {
+  color: red;
+}
+.copyright {
+  color: blue;
+}
+.text {
+  color: yellow;
+}
+footer p {
+  color: green;
+}
