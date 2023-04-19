@@ -71,6 +71,7 @@ li:last-child {
   background-color: #f7f7f7;
   padding: 20px 40px;
   margin-bottom: 60px;
+  height: 80px;
 }
 .post-header {
   margin-bottom: 40px;
@@ -123,6 +124,10 @@ a:khover {
 a:active {
   background-color: black;
   font-style: italic;
+}
+.post-img {
+  width: 100%;
+  height: auto; /*using auto if styled the img in the html*/
 }
 /* resolving selectors conflicts */
 #copyright {
