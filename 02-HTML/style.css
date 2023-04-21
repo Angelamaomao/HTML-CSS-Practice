@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   font-family: sans-serif;
@@ -43,6 +44,7 @@ h4 {
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 30px;
 }
 p {
   font-size: 22px;
@@ -71,6 +73,7 @@ li:last-child {
 }
 .related-posts {
   list-style: none;
+  margin-left: 0;
 }
 
 .main-header {
@@ -102,6 +105,7 @@ ol {
   margin-left: 50px;
   margin-bottom: 20px;
 }
+
 /* li:nth-child(2) {
   color: red;
 } */
