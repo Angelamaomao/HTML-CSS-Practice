@@ -30,8 +30,8 @@ body {
   font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 20px;
-  float: right;
+  /* margin-bottom: 20px; */
+  /* float: right; */
 }
 .sale {
   color: #fff;
@@ -93,12 +93,13 @@ button {
 .colors {
   margin-top: 20px;
   display: flex;
+  gap: 10px;
 }
 .color {
   background-color: black;
   height: 15px;
   width: 15px;
-  margin-right: 10px;
+  /* margin-right: 10px; */
 }
 .color-blue {
   background-color: rgb(68, 68, 186);
@@ -115,9 +116,9 @@ button {
 .color-brown {
   background-color: rgb(110, 85, 8);
 }
-
-.product-info {
-  /* 825-4*2-250-40*2 */
+/* 825-4*2-250-40*2 */
+/* using float */
+/* .product-info {
   width: 243px;
   float: left;
   margin-right: 40px;
@@ -136,4 +137,38 @@ img {
   content: "";
   display: block;
   clear: both;
+} */
+
+/* using flex box */
+
+.product-info {
+  /* width: 243px;
+  float: left;
+  margin-right: 40px; */
+  margin-top: 20px;
+}
+.product-details {
+  /* width: 243px;
+  float: right; */
+  margin-top: 20px;
+}
+.container {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+.product-info {
+  flex: 1;
+}
+.product-details {
+  flex: 1;
+}
+.price-shipping {
+  display: flex;
+}
+.price-shipping {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
 }
