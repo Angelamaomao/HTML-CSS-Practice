@@ -152,7 +152,7 @@ img {
   float: right; */
   margin-top: 20px;
 }
-.container {
+/* .container {
   display: flex;
   align-items: flex-start;
   gap: 40px;
@@ -165,10 +165,25 @@ img {
 }
 .price-shipping {
   display: flex;
-}
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+} */
 .price-shipping {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+}
+/* gird */
+.product {
+  display: grid;
+  grid-template-columns: 250px 1fr 1fr;
+  column-gap: 40px;
+}
+.title {
+  grid-column: 1/-1;
+}
+.add-button {
+  grid-column: 1/-1;
 }
